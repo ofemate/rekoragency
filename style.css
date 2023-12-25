@@ -11,6 +11,11 @@
 }
 
 @font-face {
+  font-family: Futura-Md-BT;
+  src: url(./FutuMd.ttf);
+}
+
+@font-face {
   font-family: Arciform;
   src: url(./Arciform.otf);
 }
@@ -20,8 +25,16 @@
   color: #e5e5e5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .futuraHvBt {
   font-family: "Futura-HV-BT", sans-serif;
+}
+
+.futuraMdBt {
+  font-family: "Futura-Md-BT", sans-serif;
 }
 
 .futuraLtBt {
@@ -62,8 +75,10 @@
 
 @media (max-width: 500px) {
   .heroWrapper {
-    background: url(./assets/anasayfa-mobil.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(./assets/anasayfa-mobil.jpg) no-repeat;
+    background-position: bottom 173px center;
+    background-size: 100% cover;
+    margin-bottom: -173px;
   }
 }
 /* Hero End */
@@ -204,12 +219,18 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   margin-top: 1rem;
+  letter-spacing: 0.2rem;
 }
 
 @media (max-width: 500px) {
   .ctaTitle {
     font-size: 1.3rem;
     top: -1.2rem;
+  }
+
+  .formBtn {
+    grid-column: 2 / span 6;
+    padding: 0 1rem;
   }
 }
 /* CTA End */
@@ -239,9 +260,9 @@ footer {
 /* Rekor Çizgi Konum Başlangıç */
 .rekorCizgi {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 45%;
+  top: -15%;
+  right: -4.5%;
+  width: 60%;
 }
 
 @media (max-width: 1921px) {
@@ -275,8 +296,9 @@ footer {
 @media (max-width: 500px) {
   .rekorCizgi {
     width: 100%;
-    left: 0;
-    top: 220px;
+    left: 75px;
+    top: 160px;
+    scale: 1.15;
   }
 }
 /* Rekor Çizgi Konum Bitiş */
