@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Rekor Agency</title>
   </head>
-  <body class="min-h-[100vh] flex flex-col">
+  <body id="anasayfa" class="min-h-[100vh] flex flex-col">
     <!-- Navbar Start -->
     <nav class="navbarWrapper">
       <ul class="hidden sm:flex items-center gap-12">
@@ -15,16 +15,16 @@
           <a href="#">Anasayfa</a>
         </li>
         <li>
-          <a href="#">Hakkımızda</a>
+          <a href="#hakkimizda">Hakkımızda</a>
         </li>
         <li>
           <a href="#"><img src="./assets/logo.svg" alt="logo" /></a>
         </li>
         <li>
-          <a href="#">Hizmetler</a>
+          <a href="#hizmetlerimiz">Hizmetler</a>
         </li>
         <li>
-          <a href="#">İletişim</a>
+          <a href="#iletisim">İletişim</a>
         </li>
       </ul>
       <img src="./assets/logo.svg" alt="logo" class="sm:hidden" />
@@ -57,16 +57,15 @@
 
       <!-- Markalar Start -->
       <section
-        class="w-full bg-white py-3 px-3 md:px-[8rem] flex items-center gap-5"
+      id="hakkimizda"  
+      class="w-full bg-white py-3 px-3 md:px-[8rem] flex items-center gap-5"
       >
         <div
-          class="md:w-full max-w-max flex items-center border-r md:pr-5 flex-wrap gap-5 md:gap-0"
-        >
+          style="margin-right: 20px;"
+          class="md:w-full max-w-max flex items-center border-r md:pr-5 flex-wrap gap-5 md:gap-0" >
           <img
-            src="./assets/markalar/google-partner.png"
-            alt="google partner"
-          />
-          <img src="./assets/markalar/meta-partner.png" alt="meta partner" />
+            src="./assets/markalar/google-partner.png" alt="google partner" />
+          <img style="margin-right: 20px;" src="./assets/markalar/meta-partner.png" alt="meta partner" />
         </div>
         <div
           class="md:w-full flex items-center justify-between flex-wrap gap-1 md:gap-0"
@@ -75,10 +74,7 @@
           <img src="./assets/markalar/worry-rings.png" alt="worry rings" />
           <img src="./assets/markalar/kertil-cam.png" alt="kertil çam" />
           <img src="./assets/markalar/scrikss.png" alt="scrikss" />
-          <img
-            src="./assets/markalar/guardian-glass.png"
-            alt="guardian glass"
-          />
+          <img src="./assets/markalar/guardian-glass.png" alt="guardian glass" />
         </div>
       </section>
       <!-- Markalar End -->
@@ -108,7 +104,7 @@
                 firmaları rakiplerinden ayırarak müşteri kitlesinin gözünde
                 önemli bir konuma getiriyor.
               </p>
-              <p>
+              <p id="hizmetlerimiz">
                 Yaptığımız işin en iyisini yapmıyorsak yapmış saymıyoruz. <br />
                 Hizmet verdiğimiz firmalara rekorlar kırdırmak için buradayız.
                 <br />
@@ -379,7 +375,7 @@
     </main>
 
     <!-- Footer Start -->
-    <footer class="flex items-center py-4 md:py-0">
+    <footer id="iletisim" class="flex items-center py-4 md:py-0">
       <div
         class="max-w-max mx-auto flex flex-col-reverse md:flex-row items-center gap-1 md:gap-40"
       >
@@ -420,10 +416,10 @@
         </div>
         <div class="footerLinksWrapper">
           <ul>
-            <li><a href="#">Anasayfa</a></li>
-            <li><a href="#">Hakkımızda</a></li>
-            <li><a href="#">Hizmetler</a></li>
-            <li><a href="#">İletişim</a></li>
+            <li><a href="#anasayfa">Anasayfa</a></li>
+            <li><a href="#hakkimizda">Hakkımızda</a></li>
+            <li><a href="#hizmetlerimiz">Hizmetler</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
           </ul>
         </div>
       </div>
