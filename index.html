@@ -81,7 +81,7 @@
       >
         <img src="./assets/rekor-lines.svg" alt="lines" class="rekorCizgi" />
         <div
-          class="z-10 relative w-[80%] lg:max-w-[85%] 2xl:max-w-[1090px] mx-auto flex flex-col gap-14"
+          class="z-10 relative w-[80%] lg:max-w-[85%] 2xl:max-w-[1176px] mx-auto flex flex-col gap-14"
         >
           <div>
             <p class="text-2xl md:text-5xl futuraMdBt">Hakkımızda</p>
@@ -110,7 +110,7 @@
               </p>
             </div>
           </div>
-          <div class="mx-auto">
+          <div class="w-full mx-auto">
             <p class="text-2xl md:text-5xl futuraMdBt">Hizmetlerimiz</p>
             <p class="montserratText mb-4 sm:mb-0">
               Hangi alanlarda rekorlar kırıyoruz?
@@ -238,116 +238,118 @@
             <!-- Services Desktop End -->
             <!-- Services Mobile Start -->
             <div class="md:hidden">
-              <!-- Satır 1 -->
-              <div class="w-full bg-white rounded-lg flex items-center mb-2">
-                <img
-                  src="./assets/services/sosyal-medya.webp"
-                  alt="sosyal medya"
-                  class="w-2/5"
-                />
-                <div>
-                  <p class="text-[#191919] text-md">Sosyal Medya Yönetimi</p>
-                  <p class="text-[#asasas] text-xs">
-                    Facebook, Instagram, Twitter, LinkedIn ve diğer sosyal medya
+              <!-- Sosyal Medya -->
+              <div class="flex justify-end relative">
+                <img src="./assets/services/sosyal medya-mobil.png" alt="smm" />
+                <div
+                  class="absolute top-[calc(55%)] right-5 w-[48%] translate-y-[calc(-50%)] flex flex-col gap-1"
+                >
+                  <p class="futuraHvBt cardMobileTitle">
+                    Sosyal Medya Yönetimi
+                  </p>
+                  <p class="cardMobileDesc">
+                    Facebook, Instagram, Twitter ve diğer sosyal medya
                     platformlarının her birinde özgün içerikler planlayarak
                     etkileşim sağlıyoruz.
                   </p>
-                  <a href="#" class="text-black text-xs">Daha Fazla Detay -></a>
+                  <a href="#" class="cardMobileBtn">Daha Fazla Detay -></a>
                 </div>
               </div>
-              <!-- Satır 2 -->
-              <div class="w-full flex items-stretch gap-2 mb-2">
-                <div class="w-1/3 bg-white rounded-lg">
+              <div class="flex mt-3 gap-3">
+                <!-- Kurumsal Kimlik -->
+                <div
+                  style="margin-top: -12px; margin-left: -7px"
+                  class="relative"
+                >
                   <img
-                    src="./assets/services/kurumsal-kimlik.webp"
+                    src="./assets/services/kurumsal-mobil.png"
                     alt="kurumsal kimlik"
                   />
-                  <div class="p-2">
-                    <div>
-                      <p class="text-[#191919] text-md">Kurumsal Kimlik</p>
-                      <p class="text-[#191919] text-xs -mt-1 opacity-50">
+                  <div class="absolute bottom-5 right-0 w-[88%] flex flex-col">
+                    <div style="padding: 0">
+                      <p class="cardMobileTitle futuraHvBt">Kurumsal Kimlik</p>
+                      <p class="-mt-2 text-[#191919] text-[0.5rem] mt-[-5px]">
                         ve Marka Tasarımı
                       </p>
                     </div>
-                    <p class="text-[#asasas] text-xs">
+                    <p class="text-[#a5a5a5] cardMobileDesc my-1 mb-2">
                       Hedef kitlenize dijital ve basılı medya üzerinden etkili
-                      bir şekilde ulaşmanızı sağlayacak materyaller
-                      tasarlıyoruz.
+                      bir <br />
+                      şekilde ulaşmanızı sağlıyoruz.
                     </p>
-                    <a href="#" class="text-black text-xs"
-                      >Daha Fazla Detay -></a
-                    >
+                    <a href="#" class="cardMobileBtn">Daha Fazla Detay -></a>
                   </div>
                 </div>
-                <div class="w-2/3 bg-white rounded-lg">
+                <!-- UI/UX Tasarım -->
+                <div class="relative">
                   <img
-                    src="./assets/services/ui-ux-design.webp"
+                    src="./assets/services/uiux-mobil.png"
                     alt="ui ux tasarım"
                   />
-                  <div class="p-2">
-                    <p class="text-[#191919] text-md">UI/UX Tasarım</p>
-                    <p class="text-[#asasas] text-xs">
+                  <div class="absolute bottom-3 left-3 w-[88%] flex flex-col">
+                    <p class="cardMobileTitle futuraHvBt">UI/UX Tasarım</p>
+                    <p class="cardMobileDesc mt-[1px] mb-2">
                       İnteraktif prototipler ve kullanıcı testleriyle, ürün veya
-                      hizmetinizin kullanıcı dostu, işlevsel ve çekici bir
-                      arayüze sahip olmasını sağlıyoruz.
+                      hizmetinizin kullanıcı dostu ve işlevsel bir arayüze sahip
+                      olmasını sağlıyoruz.
                     </p>
-                    <a href="#" class="text-black text-xs"
-                      >Daha Fazla Detay -></a
-                    >
+                    <a href="#" class="cardMobileBtn">Daha Fazla Detay -></a>
                   </div>
                 </div>
               </div>
-              <!-- Satır 3 -->
-              <div
-                class="w-full bg-white rounded-lg flex items-center gap-2 mb-2"
-              >
+              <!-- Fotoğraf Çekimi -->
+              <div class="flex justify-end relative mt-3 mb-3">
                 <img
-                  src="./assets/services/fotograf-cekimi.webp"
+                  src="./assets/services/foto-mobil.png"
                   alt="fotoğraf çekimi"
-                  class="w-2/5"
                 />
-                <div>
-                  <p class="text-[#191919] text-md">Fotoğraf Çekimi</p>
-                  <p class="text-[#asasas] text-xs">
+                <div
+                  class="absolute top-[calc(50%)] right-5 w-[48%] translate-y-[calc(-50%)] flex flex-col gap-1"
+                >
+                  <p class="futuraHvBt cardMobileTitle">Fotoğraf Çekimi</p>
+                  <p class="cardMobileDesc">
                     Ürünlerinizin her detayını öne çıkaran ve potansiyel
                     müşterilerinizi etkileyen çekimler yapıyoruz.
                   </p>
-                  <a href="#" class="text-black text-xs">Daha Fazla Detay -></a>
+                  <a href="#" class="cardMobileBtn">Daha Fazla Detay -></a>
                 </div>
               </div>
-              <!-- Satır 4 -->
-              <div class="w-full flex items-stretch gap-2">
-                <div class="flex-1 bg-white rounded-lg">
+              <div class="flex gap-3">
+                <!-- Web Yazılım -->
+                <div class="relative mt-[-4px]">
                   <img
-                    src="./assets/services/web-yazilim.webp"
+                    src="./assets/services/webyazilim-mobil.png"
                     alt="web yazılım"
                   />
-                  <div class="p-2">
-                    <p class="text-[#191919] text-md">Web Yazılım</p>
-                    <p class="text-[#asasas] text-xs">
-                      Mobil cihazlardan masaüstüne, her platformda hızlı
-                      performans sergileyen ve rakiplerinizden sıyrılmanızı
-                      sağlayan web siteleri geliştiriyoruz.
+                  <div
+                    class="absolute bottom-[11px] left-3 w-[88%] flex flex-col"
+                  >
+                    <p class="cardMobileTitle futuraHvBt text-[0.59rem]">
+                      Web Yazılım
                     </p>
-                    <a href="#" class="text-black text-xs"
+                    <p class="cardMobileDesc mt-[1px] mb-[3px] text-[0.44rem]">
+                      Her platformda hızlı performans sergileyen ve
+                      rakiplerinizden sıyrılmanızı sağlayan web siteleri
+                      geliştiriyoruz.
+                    </p>
+                    <a href="#" class="cardMobileBtn text-[0.37rem] mt-[2px]"
                       >Daha Fazla Detay -></a
                     >
                   </div>
                 </div>
-                <div class="flex-1 bg-white rounded-lg flex items-center">
-                  <img
-                    src="./assets/services/360-derece.webp"
-                    alt="360 derece hizmet"
-                    class="w-2/5"
-                  />
-                  <div class="p-2">
-                    <p class="text-[#191919] text-md">Web Yazılım</p>
-                    <p class="text-[#asasas] text-xs">
-                      Mobil cihazlardan masaüstüne, her platformda hızlı
-                      performans sergileyen ve rakiplerinizden sıyrılmanızı
-                      sağlayan web siteleri geliştiriyoruz.
+                <!-- 360 Hizmet -->
+                <div class="relative">
+                  <img src="./assets/services/seo-mobil.png" alt="seo" />
+                  <div
+                    class="absolute top-[calc(50%)] right-2 w-[55%] translate-y-[calc(-50%)] flex flex-col"
+                  >
+                    <p class="cardMobileTitle futuraHvBt">360° Hizmet</p>
+                    <p class="cardMobileDesc">
+                      Markanızı genişletmek için etkili pazarlama ve reklam
+                      stratejileri geliştiriyoruz. Aynı zamanda katalog, stant
+                      gibi tüm süreçlerinizde yanınızdayız!
                     </p>
-                    <a href="#" class="text-black text-xs"
+                    <a href="#" class="cardMobileBtn mt-[5px]"
                       >Daha Fazla Detay -></a
                     >
                   </div>
